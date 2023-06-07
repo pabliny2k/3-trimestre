@@ -1,8 +1,87 @@
-body {background-color: #ffffff; text-align: justify; font-size: 18PX;}
-h1 {text-align: center; background-color:   #ffffff; color: #1736e6}
-h3 {text-align: justify; color: rgb(0, 60, 255);}
-b {color: rgb(0, 59, 223); font-size: 18px;}
-i {color: rgb(7, 74, 175); font-size: 18px}
-header,footer {background-color:#a78e00; color: #0037cf; text-align: center; font-size: 20px}
-main {background-color:#ffffff;}
-.PRIMEIROPARAGRAFO {text-align: justify; font-size: 18px; border: rgb(0, 47, 255) solid 2px;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para a navegação */
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para a seção de conteúdo principal */
+  
+  .main-content {
+    margin-top: 20px;
+  }
+  
+  .investments-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .investment-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .investment-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .investment-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Estilos para rodapé */
+  
+  .footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
